@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #D3CEDF;
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+section{
+  margin-top: 2rem;
+  transition: all 0.3s linear;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+div {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+input[type=text] {
+    padding: 0.25rem;
+    padding-left: 1rem;
+    background:  hsl(210, 36%, 96%);
+    border-radius: 0.5rem;
+    border-color: transparent;
+    font-size: 1rem;
+    color: hsl(210, 22%, 49%);
+}
+span{
+  cursor: pointer;
+}
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 4rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  padding: 2rem;
+  text-align: center;
+}
+.submit-btn {
+  background: #9CB4CC;
+  border-color: transparent;
+  align-items: center;
+  padding: 0.25rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  font-size: 0.85rem;
+}
+.submit-btn:hover {
+  background: #748DA6;
+  color: white;
+}
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: 0 0.15rem;
+  transition: all 0.3s linear;
+}
+.edit-btn {
+  color: hsl(125, 71%, 66%);
+}
+.edit-btn:hover {
+  color: hsl(125, 67%, 44%);
+}
+.delete-btn {
+  color: hsl(360, 71%, 66%);
+}
+.delete-btn:hover {
+  color: hsl(360, 67%, 44%);
+}
+.another-btn,
+.clear-btn {
+  text-transform: capitalize;
+  width: 15rem;
+  height: 2rem;
+  display: grid;
+  align-items: center;
+  border-color: transparent;
+  margin: 0 auto;
+  font-size: 0.85rem;
+  letter-spacing: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  border-radius: 0.25rem;
+}
+.another-btn {
+  color: #155724;
+  background: #d4edda;
+}
+.another-btn:hover {
+  color: hsl(125, 67%, 44%);
+  background: #B6D6B4;
+}
+.clear-btn {
+  color: #721c24;
+  background: #f8d7da;
+}
+.clear-btn:hover {
+  color: hsl(360, 67%, 44%);
+  background: #DFACAD;
+}
+.listItem {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s linear;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+}
+.checked {
+  text-decoration: line-through;
+}
